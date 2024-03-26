@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active, button:active {
+  transform: translate(-4px);
+}
+
+#board {
+  cursor: crosshair;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100svh;
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+
+button {
+  background-color: #d0d0d0;
+  border: 0;
+  font-weight: bold;
+  max-width: 72px;
+  min-width: 56px;
+  padding: 16px 0px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #000000;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#footer {
+  align-items: center;
+  background-color: #292929;
+  border-top: 4px solid #000000;
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  width: 100%;
+}
+
+#footer a {
+  color: #d0d0d0;
+}
+
+#footer a:hover {
+  color: #ffffff;
+}
+
+#footer input[type=number] {
+  background-color: transparent;
+  border: 0;
+  color: #d0d0d0;
+  font-weight: bold;
+  height: 100%;
+  text-align: center;
+}
+
+#footer input[type=number]:hover {
+  color: #ffffff;
+}
+
+#strokeStyle {
+  background-color: transparent;
+  border: 0;
+  height: 100%;
+  max-width: 72px;
+  min-width: 48px;
+  padding-bottom: 4px;
+  width: 100%;
+}
+
+#strokeStyle:hover {
+  cursor: pointer;
+}
+
+.w100 {
+  min-width: 0%;
+  width: 100%;
+}

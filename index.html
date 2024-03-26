@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Matheus Ramalho de Oliveira" />
+  <title>Recreating RxJS Operators using Web Streams</title>
+  <link rel="stylesheet" href="./index.css" />
+  <script type="module" src="./index.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <canvas id="board">Your browser does not support this feature</canvas>
+    <div id="footer">
+      <input id="strokeStyle" type="color" value="#000000" />
+      <input id="lineWidth" type="number" value="4" min="1" max="999" />
+      <div class="w100"></div>
+      <a href="https://github.com/kastorcode" target="_blank">&lt;kastor.code/&gt;</a>
+      <div class="w100"></div>
+      <input id="undoOperations" type="number" value="10" min="1" max="999" />
+      <button id="undo">Undo</button>
+      <button id="clear">Clear</button>
+    </div>
+  </div>
+</body>
+
+</html>
